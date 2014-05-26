@@ -34,7 +34,7 @@ group :test do
   # gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
-gem 'libnotify', '0.8.0'
+  gem 'libnotify', '0.8.0'
 
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
@@ -47,6 +47,8 @@ gem 'uglifier', '2.1.1'
 gem 'jquery-rails', '3.0.4'
 gem 'jbuilder', '1.0.2'
 gem 'turbolinks', '1.1.1'
+
+gem 'strong_parameters'
 
 group :doc do
 	gem 'sdoc', require: false
