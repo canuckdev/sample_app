@@ -37,4 +37,6 @@ SampleApp::Application.configure do
 
   # Speed up tests by lowering bcrypt's cost function.
   # ActiveModel::SecurePassword.min_cost = true
+
+  I18n.enforce_available_locales = false
 end

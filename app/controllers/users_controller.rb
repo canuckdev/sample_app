@@ -11,6 +11,7 @@ class UsersController < ApplicationController
     @user.password = permitted[:password]
     @user.password_confirmation = permitted[:password_confirmation]
     if @user.save
+	  sign_in @user
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
     else
